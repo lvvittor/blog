@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name     = "klise"
+  spec.name     = "Lucas Vittor Blog"
   spec.version  = "1.0.1"
-  spec.authors  = ["Mahendrata Harpi"]
-  spec.email    = ["justharpi@gmail.com"]
+  spec.authors  = ["Lucas Vittor"]
+  spec.email    = ["lvvittor@gmail.com"]
 
-  spec.summary  = "🏖 Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
-  spec.homepage = "https://github.com/piharpi/jekyll-klise"
+  spec.summary  = "The place where I share my learnings."
+  spec.homepage = "https://github.com/lvvittor/lvvittor.github.io"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
