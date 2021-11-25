@@ -23,7 +23,7 @@ author:
 # URL settings
 url: "https://lvvittor.github.io/" #
 baseurl:
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
 
