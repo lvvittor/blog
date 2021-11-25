@@ -35,7 +35,7 @@ install:
 # This target is the first thing you should run 
 # after cloning the project.
 build:
-	bundle exec jekyll build
+	bundle exec jekyll build --incremental
 
 # Run the Jekyll server
 #
