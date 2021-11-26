@@ -1,18 +1,13 @@
 ---
-title: Colophon
+title: About this blog
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Launched as a community for entrepreneurs and engineers, this site is a collection of my learnings on software engineering, math, startups and cryptocurrencies.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Launched as a community for entrepreneurs and engineers, this site is a collection of my learnings on software engineering, math, startups and cryptocurrencies.
 
-If you have a question about him or else, just send a letter to him.
+You can propose changes, say to fix broken links or typos, by <a href="https://github.com/lvvittor/lvvittor.github.io/issues/new/choose" target="_blank" rel="noopener">creating a new issue</a>. Please, do your best to follow the <a href="https://github.com/lvvittor/lvvittor.github.io/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING</a> guidelines.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+If you’re looking to get in touch, I’m <a href="https://twitter.com/lvvittor" target="_blank" rel="noopener">{{site.author.twitter}}</a> on twitter.
