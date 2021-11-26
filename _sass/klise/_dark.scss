@@ -213,6 +213,10 @@ body[data-theme="dark"] {
     a.footer_item:not(:last-child) {
       color: $dark-white;
     }
+    .footer_copyright {
+      color: $dark-gray;
+      opacity: 1;
+    }
   }
 
   // 404 Page
