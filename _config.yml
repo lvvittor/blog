@@ -23,7 +23,7 @@ author:
 # URL settings
 url: "https://lvvittor.github.io/"
 baseurl:
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 google_analytics: UA-213772369-1
 fb_appid:
 
@@ -73,13 +73,11 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - CHANGELOG.md
+  - COPYING
+  - Makefile
   - README.md
   - node_modules
-  - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - lighthouse.png
   - klise-*.gem
   - klise.gemspec
 
