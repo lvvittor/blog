@@ -21,10 +21,10 @@ author:
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
-url: "https://lvvittor.github.io/" #
+url: "https://lvvittor.github.io/"
 baseurl:
 permalink: /:year/:month/:day/:title/
-google_analytics: # leave it blank if not wish
+google_analytics: UA-213772369-1
 fb_appid:
 
 # Collection setting
