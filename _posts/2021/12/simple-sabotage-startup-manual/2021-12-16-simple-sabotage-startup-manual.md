@@ -3,6 +3,7 @@ layout: post
 title: Simple sabotage startup manual
 date: 2021-12-16 01:11 -0300
 image: "simple-sabotage-startup-manual/the_miracle_of_the_lame_man_healed_by_saint_peter_and_saint_john.jpg"
+description: "Simple sabotage startup manual: the anti-agile startup manifesto."
 ---
 
 The **OSS** (now the **CIA**) once released a guide called *Simple Sabotage Field Manual* on how to sabotage an organization. That historical document was originally published in 1944, for use by **OSS** agents in motivating potential foreign saboteurs. The booklet contains instructions for destabilizing progress and productivity by non-violent means. Moreover, is separated into headings that correspond to specific audiences, including: "Organizations and Conferences", "Managers and Supervisors" and "Employees".
