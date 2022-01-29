@@ -2,7 +2,7 @@
 layout: post
 title: The Workshop Way of Learning
 date: 2022-01-29 03:05 -0300
-image: "at_the_waterfall_by_david_claypoole_johnston.jpeg"
+image: "the-workshop-way-of-learning/at_the_waterfall_by_david_claypoole_johnston.jpeg"
 description: "The definition of learning that I always use"
 ---
 
