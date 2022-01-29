@@ -1,6 +1,6 @@
 # Lucas Vittor Blog
 
-_Launched as a community for entrepreneurs and engineers, <a href="https://lvvittor.github.io/" target="_blank" rel="noopener">this site</a> is a collection of my learnings on software engineering, math, startups and cryptocurrencies._
+_Launched as a community for entrepreneurs and engineers, <a href="https://lucasvittor.com" target="_blank" rel="noopener">this site</a> is a collection of my learnings on software engineering, math, startups and cryptocurrencies._
 
 ## Contributing
 
