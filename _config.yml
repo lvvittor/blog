@@ -70,7 +70,6 @@ include:
   - .htaccess
 
 exclude:
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - COPYING
