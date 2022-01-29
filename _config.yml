@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings
-url: "https://lucasvittor.com"
+url: "https://www.lucasvittor.com"
 baseurl:
 permalink: /:title/
 google_analytics: UA-213772369-1
