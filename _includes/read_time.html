@@ -1,0 +1,21 @@
+<!-- 
+{%- assign words_per_minute = site.words_per_minute | default: 180 -%}
+{%- assign min_read = site.data.text[site.locale].min_read | default: 'min read' -%}  
+-->
+
+{%- assign words_per_minute = 180 -%}
+{%- assign min_read = 'min read' -%} 
+
+{% if post %}
+  {% assign words = post.content | number_of_words %}
+{% else %}
+  {% assign words = page.content | number_of_words %}
+{% endif %}
+
+<span class="post-read-time">
+  {%- if words < words_per_minute -%}
+    ~1 {{ min_read }}
+  {%- else -%}
+    {{ words | divided_by:words_per_minute }} {{ min_read }}
+  {%- endif -%}
+</span>
