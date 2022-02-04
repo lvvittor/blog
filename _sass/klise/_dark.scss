@@ -159,16 +159,16 @@ body[data-theme="dark"] {
       border-color: $dark-light;
     }
 
-    .post-item-date {
-      color: $dark-white;
-    }
+    // .post-item-date {
+    //   color: $dark-white;
+    // }
     .post-item-title {
       a {
-        color: $dark-text-base-color;
+        color: $dark-white;
 
         &:hover,
         &focus {
-          color: $dark-white;
+          color: $dark-text-link-blue;
         }
       }
     }

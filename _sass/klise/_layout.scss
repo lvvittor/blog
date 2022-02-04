@@ -226,21 +226,19 @@
 .post-item {
   display: flex;
   padding-top: 5px;
-  padding-bottom: 6px;
+  padding-bottom: 42px;
   @extend %clearfix;
 
-  &:not(:first-child) {
-    border-top: 1px solid $light;
-  }
 
-  .post-item-date {
+
+  .post-item-date, 
+  .post-read-time {
     min-width: 96px;
-    color: $black;
-    font-weight: 700;
+    font-weight: normal;
     padding-right: 10px;
 
     @include media-query($on-mobile) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 
@@ -249,17 +247,28 @@
     border: 0;
     padding: 0;
     font-size: $base-font-size;
-    font-weight: normal;
+    font-weight: 700;
     letter-spacing: 0.1px;
 
+    // @include media-query($on-mobile) {
+    //   font-size: 16px;
+    // }
+
     a {
-      color: $text-base-color;
+      color: $dark-black;
 
       &:hover,
       &focus {
-        color: $black;
+        color: $text-link-blue;
       }
     }
+  }
+
+  .post-item-excerpt {
+    margin: 0 auto;
+    opacity: 0.9;
+    max-width: 393px;
+    line-height: 1.688;
   }
 }
 
