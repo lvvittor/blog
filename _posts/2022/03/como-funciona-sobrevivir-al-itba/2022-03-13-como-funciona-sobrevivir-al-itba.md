@@ -132,7 +132,6 @@ Google Drive
 
 La verdad son un monton más.
 
-Una idea para mantener esta lista de recursos es tener esto actualizado es un github pages opensource con todos los links. 
+Una idea para mantener esta lista de recursos es tener esto actualizado es un github pages opensource con todos los links.
 
-Si hay un par de informáticos manijas que les gusta la idea los puedo mentorear/ayudar 
-con las tecnologías para hacerlo.
+Si hay un par de informáticos manijas que les gusta la idea los puedo mentorear/ayudar con las tecnologías para hacerlo.
