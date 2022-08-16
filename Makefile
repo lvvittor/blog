@@ -43,6 +43,10 @@ install:
 build:
 	bundle exec jekyll build --incremental
 
+## up		Up the Jekyll container
+up:
+	docker-compose up
+
 ## serve		Run the Jekyll server
 #
 # The --host flag will make Jekyll's HTTP server bind to all available IPs in the LAN.
