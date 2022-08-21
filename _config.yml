@@ -14,10 +14,10 @@ author:
   bio: >- # tell to the world
     The place where I share my learnings.
   username: lvvittor # general username
-  github: lvvittor # github username
-  twitter: lvvittor # twitter username
+  github: lvvittor # GitHub username
+  twitter: lvvittor # Twitter username
   facebook: facebook_username # facebook username
-  email: lvvittor@gmail.com # email adress
+  email: lvvittor@gmail.com # email address
   avatar: /assets/img/avatar.png # change with your own avatar
 
 # URL settings

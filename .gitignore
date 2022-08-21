@@ -4,7 +4,6 @@ _site/
 .jekyll-metadata
 _drafts
 klise-*.gem
-Gemfile.lock
 
 # vscode
 .vscode
