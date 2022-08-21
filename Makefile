@@ -23,6 +23,7 @@ define log
 	@printf "${_GREEN}$(1)${_NC}\n"
 endef
 
+DOCKER_COMPOSE_CMD:=docker-compose exec jekyll
 # To see a list of typical targets execute "make help".
 # However, for platforms with bash-completion package installed this can be done automatically with tab completion:
 # $ make 'space' 'tab' tab'
@@ -36,12 +37,12 @@ help:
 ## install		Install the dependencies specified in the Gemfile.
 ## 		See ./Gemfile for more details.
 install:
-	bundle install
+	$(DOCKER_COMPOSE_CMD) bundle install
 
 ## build		Build the Jekyll server version specified in the Gemfile.
 ##		This target is the first thing you should run after cloning the project.
 build:
-	bundle exec jekyll build --incremental
+	$(DOCKER_COMPOSE_CMD) bundle exec jekyll build --incremental
 
 ## up		Up the Jekyll container
 up:
@@ -55,14 +56,14 @@ up:
 # For example, if you have named your computer username 'johndoe', then you can access
 # your Jekyll site at johndoe.local:4000
 serve: 
-	bundle exec jekyll serve --host 0.0.0.0
+	$(DOCKER_COMPOSE_CMD) bundle exec jekyll serve --host 0.0.0.0
 
 ## serve_drafts	Run the Jekyll server with drafts enabled.
 #
 # Same as the "serve" target with drafts enabled.
 # Use this target when working in development or writing drafts.
 serve_drafts: 
-	bundle exec jekyll serve --drafts --host 0.0.0.0
+	$(DOCKER_COMPOSE_CMD) bundle exec jekyll serve --drafts --host 127.0.0.1
 
 
 ## draft		Create a new draft in the _drafts directory.
@@ -74,7 +75,7 @@ serve_drafts:
 DIR_DATE_FMT:=$(shell date +%Y/%m)
 POST_PREFIX_DATE_FMT:=$(shell date +%Y-%m-%d)
 draft:
-	bundle exec jekyll compose ${POST_PREFIX_DATE_FMT}-$(title) --collection "drafts/${DIR_DATE_FMT}/${title}"
+	$(DOCKER_COMPOSE_CMD) bundle exec jekyll compose ${POST_PREFIX_DATE_FMT}-$(title) --collection "drafts/${DIR_DATE_FMT}/${title}"
 
 ## publish		Moves a draft to the _posts directory.
 ## 		Usage: $ make publish title="already-created-draft-title"
@@ -91,4 +92,4 @@ publish:
 
 ## clean		Execute a jekyll clean
 clean:
-	bundle exec jekyll clean
+	$(DOCKER_COMPOSE_CMD) bundle exec jekyll clean
