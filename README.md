@@ -8,7 +8,7 @@ If you see any typos, formatting errors in a post or bugs in the site, or any ot
 
 ## License
 
-Copyright © 2021 Lucas Vittor
+Copyright © 2022 Lucas Vittor
 
 The content of this repository is bound by the following licenses:
 
