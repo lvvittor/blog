@@ -23,7 +23,7 @@ define log
 	@printf "${_GREEN}$(1)${_NC}\n"
 endef
 
-DOCKER_COMPOSE_CMD:=docker-compose exec jekyll
+DOCKER_COMPOSE_CMD:=docker compose exec jekyll
 # To see a list of typical targets execute "make help".
 # However, for platforms with bash-completion package installed this can be done automatically with tab completion:
 # $ make 'space' 'tab' tab'
@@ -46,7 +46,7 @@ build:
 
 ## up		Up the Jekyll container
 up:
-	docker-compose up
+	docker compose up
 
 ## serve		Run the Jekyll server
 #
