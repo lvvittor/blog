@@ -1,0 +1,66 @@
+[
+  
+    {
+      "title"    : "How to ask",
+      "tags"     : "english, life",
+      "url"      : "/how-to-ask/",
+      "date"     : "2023-10-13 01:22:00 -0300"
+    } ,
+  
+    {
+      "title"    : "A soft introduction to the zkML rabbit hole",
+      "tags"     : "Artificial intelligence, web3",
+      "url"      : "/a-soft-introduction-to-the-zkml-rabbit-hole/",
+      "date"     : "2023-06-28 00:41:00 -0300"
+    } ,
+  
+    {
+      "title"    : "The Art of B2B Differentiation",
+      "tags"     : "english, business, entrepreneurship",
+      "url"      : "/the-art-of-b2b-differentiation/",
+      "date"     : "2022-11-02 01:07:00 -0300"
+    } ,
+  
+    {
+      "title"    : "How Great Founders Do More with Less",
+      "tags"     : "english, business, entrepreneurship",
+      "url"      : "/how-great-founders-do-more-with-less/",
+      "date"     : "2022-08-20 22:08:00 -0300"
+    } ,
+  
+    {
+      "title"    : "270 Bits of Unsolicited Advice",
+      "tags"     : "english, life",
+      "url"      : "/270-bits-of-unsolicited-advice/",
+      "date"     : "2022-06-28 00:41:00 -0300"
+    } ,
+  
+    {
+      "title"    : "Hack-ITBA: A hackathon with great people",
+      "tags"     : "english, hackathon",
+      "url"      : "/hack-itba-a-hackathon-with-great-people/",
+      "date"     : "2022-04-02 12:38:00 -0300"
+    } ,
+  
+    {
+      "title"    : "Cómo funciona sobrevivir al ITBA",
+      "tags"     : "spanish, itba",
+      "url"      : "/como-funciona-sobrevivir-al-itba/",
+      "date"     : "2022-03-13 23:02:00 -0300"
+    } ,
+  
+    {
+      "title"    : "The Workshop Way of Learning",
+      "tags"     : "",
+      "url"      : "/the-workshop-way-of-learning/",
+      "date"     : "2022-01-29 03:05:00 -0300"
+    } ,
+  
+    {
+      "title"    : "Simple sabotage startup manual",
+      "tags"     : "",
+      "url"      : "/simple-sabotage-startup-manual/",
+      "date"     : "2021-12-16 01:11:00 -0300"
+    } 
+  
+]
