@@ -51,3 +51,21 @@ Explain the enhancement suggestions and provide the following information:
 - **Describe the current behavior and explain which behavior you expected to see instead and why**.
 
 - **Include screenshots** which help you demonstrate the steps or point out the part of Lucas Vittor Blog which the suggestion is related to.
+
+## Common issues
+
+### `Gemfile.lock` permission denied
+
+If you are facing the following error when trying to run `make up`:
+
+```bash
+38.83 There was an error while trying to write to `/code/Gemfile.lock`. It is likely
+38.83 that you need to grant write permissions for that path.
+```
+
+run the following commands:
+
+```bash
+chmod +rw -R  Gemfile.lock
+chown -R $(id -u):$(id -g) Gemfile.lock
+```
