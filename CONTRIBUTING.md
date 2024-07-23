@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to Lucas Vittor Blog, whic
 
 ### Reporting bugs
 
- Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined where the bug is, create an issue and provide the following information by filling in [the template](https://github.com/lvvittor/lvvittor.github.io/blob/master/.github/ISSUE_TEMPLATE/02--issues-with-software-on-site.md).
+ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined where the bug is, create an issue and provide the following information by filling in [the template](https://github.com/lvvittor/blog/blob/master/.github/ISSUE_TEMPLATE/02--issues-with-software-on-site.md).
 
 Explain the problem and include additional details to help reproduce the problem:
 
@@ -26,7 +26,7 @@ Explain the problem and include additional details to help reproduce the problem
 
 ### Reporting issues with content on blog posts
 
-Content issues are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined where the issue is, create an issue and provide the following information by filling in [the template](https://github.com/lvvittor/lvvittor.github.io/blob/master/.github/ISSUE_TEMPLATE/01--issues-with-content-on-blog-posts.md).
+Content issues are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined where the issue is, create an issue and provide the following information by filling in [the template](https://github.com/lvvittor/blog/blob/master/.github/ISSUE_TEMPLATE/01--issues-with-content-on-blog-posts.md).
 
 Explain the content issues and provide the following information:
 

@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email    = ["lvvittor@gmail.com"]
 
   spec.summary  = "The place where I share my learnings."
-  spec.homepage = "https://github.com/lvvittor/lvvittor.github.io"
+  spec.homepage = "https://github.com/lvvittor/blog"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
