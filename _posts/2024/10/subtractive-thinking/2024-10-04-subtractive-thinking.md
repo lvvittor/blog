@@ -19,4 +19,4 @@ Fortunately, this bias can be reversed with commitment from leaders and managers
 
 **Accelerate cycle-time.** You’re moving too slowly—go faster. But don’t increase speed until you’ve worked on the first three steps.
 
-**Automate.** Finally, automate. Many organizations (Mixilo included) make the mistake of going backward: they automate first, then accelerate, simplify, and finally delete.
+**Automate.** Finally, automate. Many organizations make the mistake of going backward: they automate first, then accelerate, simplify, and finally delete.
